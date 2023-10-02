@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Bahnschrift;
+}
+
+#frame_main {
+    border-top: 10px;
+    border: 10px solid lightgray;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+}
+
+.contact_us {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+input {
+    text-align: left;
+    height: 30px;
+    border: none;
+    background-color: lightgray;
+    font-size: 10px;
+}
+.input{
+    width: 100%;
+}
+.fullname_panel {
+    background-color: lightgray;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.fullname_panel > input{
+    text-align:  center;
+}
+.fullname{
+    font-size: 10px;
+}
+.mail_phone{
+    display: flex;
+    justify-content: center;
+
+}
+.mail_panel{
+    margin-right: 10px;
+    width: 50%;
+}
+.phone_panel{
+    margin-left: 10px;
+    width: 50%;
+}
