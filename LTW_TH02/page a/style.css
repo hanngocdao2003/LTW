@@ -182,7 +182,10 @@ body {
 }
 
 .stars_span {
-    display: table-row;
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+
 }
 
 .box_2 {
@@ -192,9 +195,19 @@ body {
     margin-right: 130px;
     background-color: white;
 }
+.b_style{
+    overflow: hidden;
+
+}
 .logo_style{
     border-radius: 50%;
+    object-position: center;
     background-color: lightgray;
+    border-radius: 50%;
+    --size: 54px;
+    width: var(--size);
+    height: var(--size);
+    object-position: center;
 }
 
 
