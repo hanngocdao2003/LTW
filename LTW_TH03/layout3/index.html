@@ -34,7 +34,9 @@
                 <div class="panel password_panel">
                     <div class="sub_panel">
                         <div class="icon">
-                            <img src="key.png" alt="">
+                            <div class="key">
+                                <img src="key.png" alt="">
+                            </div>
                         </div>
                         <div class="input">
                             <input type="password" class="in" placeholder="Password">
@@ -48,17 +50,19 @@
                         Date of Birth
                     </div>
                     <div class="birthday_input">
-                        <input type="number" min="1" max="31" placeholder="DD">
-                        <input type="number" min="1" max="12" placeholder="MM">
-                        <input type="number" min="1900" max="2023" placeholder="YYYY">
+                        <input class="input_date" type="number" min="1" max="31" placeholder="DD">
+                        <input class="input_date" type="number" min="1" max="12" placeholder="MM">
+                        <input class="input_date" type="number" min="1900" max="2023" placeholder="YYYY">
                     </div>
                 </div>
                 <div class="gender_panel">
                     <div class="title">
                         Gender
                     </div>
-                    <div class="male">Male</div>
-                    <div class="male female">Female</div>
+                    <div class="male_female">
+                        <div class="male">Male</div>
+                        <div class="male female">Female</div>
+                    </div>
                 </div>
             </div>
             <div class="payment_panel">
@@ -78,7 +82,7 @@
                         <img src="card.png" alt="">
                     </div>
                     <div class="input">
-                        <input type="text" placeholder="Card Number">
+                        <input class="in" type="text" placeholder="Card Number">
                     </div>
                 </div>
                 <div class="cardcvc_date">
@@ -87,7 +91,7 @@
                             <img src="user.png" alt="">
                         </div>
                         <div class="input">
-                            <input type="text" placeholder="Card CVC">
+                            <input class="in" type="text" placeholder="Card CVC">
                         </div>
                     </div>
                     <div class="date_panel">

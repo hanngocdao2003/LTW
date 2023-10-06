@@ -4,6 +4,7 @@
     font-family: sans-serif;
     font-size: 12px;
     color: #bababa;
+    box-sizing: border-box;
 }
 
 body {
@@ -28,13 +29,26 @@ img {
 
 }
 
-input {
+.in {
     background-color: #f9f9f9;
     appearance: none;
     border: none;
     outline: none;
     height: 40px;
-    flex-basis: 80%;
+    width: 100%;
+}
+
+.input_date {
+    background-color: #f9f9f9;
+    appearance: none;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100%;
+}
+
+.input {
+    width: 100%;
 }
 
 ::placeholder {
@@ -54,18 +68,153 @@ input {
 .icon {
     height: fit-content;
     width: fit-content;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-
+    border-right: 1px solid #c5c5c5;
+    padding: 5px 10px;
+    background-color: #f9f9f9;
 }
 
 .sub_panel {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .panel {
+    box-sizing: border-box;
     border: 1px solid #c5c5c5;
     border-radius: 2px;
     margin-bottom: 10px;
+}
+
+.birth_gender {
+    margin-top: 25px;
+    display: flex;
+}
+
+.birthday_input {
+    display: flex;
+}
+
+.input_date {
+    width: fit-content;
+    margin-right: 5px;
+    border: 1px solid #c5c5c5;
+}
+
+.gender_panel {
+    width: 50%;
+    margin-left: 10px;
+}
+
+.male_female {
+    display: flex;
+}
+
+.male {
+    width: 50%;
+    border: 1px solid #c5c5c5;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+.male:hover {
+    background-color: #40b7b9;
+}
+
+.payment_panel {
+    margin-top: 25px;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.credit {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border: 1px solid #c5c5c5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.credit:hover {
+    background-color: #40b7b9;
+}
+
+.card_name {
+    padding-top: 2px;
+    margin-left: 5px;
+}
+
+.cardnum_panel {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardnum_panel > .icon {
+    background-color: #f9f9f9;
+}
+
+.cardcvc_date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardcvc_panel {
+    display: flex;
+    border: 1px solid #c5c5c5;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.date_panel {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+select {
+    padding-top: 10px;
+    padding-bottom: 14px;
+    border: 1px solid #c5c5c5;
+    background-color: #f9f9f9;
+    width: 100%;
+}
+
+.footer {
+    margin-top: 25px;
+}
+
+.accept {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accept > input {
+    margin-right: 5px;
+    border: 1px solid #c5c5c5;
+
+}
+
+p {
+    padding-top: 5px;
+}
+
+.key {
+    transform: rotate(45deg);
 }
